@@ -1,0 +1,40 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "c5e8e5a265d37cd11420d72cf9a7956f2f0994609cd7be35f4f177247274dc8d",
+    "references/capabilities/behavior-specification-tests.md": "5abb80e871cad9bef72ebfaa27b85d148d5643ed1d2d7906e9f1986fd5bb4f89",
+    "references/capabilities/clean-code-qualities.md": "6bd73e0b13fad757dffa2b6fc595db8777e82677464c321891011f6b53cb360b",
+    "references/capabilities/collaboration-pairing.md": "2b7e628ac73eddc1849ab53b9a26fda257790311fbd4f4f14d3e76f337291e69",
+    "references/capabilities/continuous-integration.md": "1d3f63e4bee087b92712c706e05dcedcad02c39c9fe0878fdfe25f1501ead4d5",
+    "references/capabilities/design-last.md": "2cb71d1835f5bbe81898f85154cd20e3c2d5df78c6f714201c9a65f0aec3a770",
+    "references/capabilities/legacy-refactoring.md": "61877e6296398451024dbf3bef4fdad0f463bdada5d4e494c908525103ad5b4d",
+    "references/capabilities/measure-development-value.md": "19f2321639927e543d130e3ed9b441122662c1533ef591254f0dd938846f9cb2",
+    "references/capabilities/small-batches.md": "912a2101dab601c0c5a5a4c6385da9f3650ada5d11265e8f3711c84490d63823",
+    "references/capabilities/test-first-tdd.md": "0e3524dbd518d03929cbb60749e704fc7cc057045e38a1632d62117a85701606",
+    "references/capabilities/user-story-first.md": "780f0bc473d5ae745b039e36f6877f2cde8062203f9c47b95e1f887aa92b07b8",
+    "references/capability-index.md": "4ce4f75713941dda85e214273deeb0b8fc8061f89444ce398706b19601380384",
+    "references/cheatsheet.md": "fed015271bead6cb5eacf21c9d7f002a1e6196181930c4127f299548367f76eb",
+    "references/glossary.md": "7e017c6e4e6567e199b1423be15ec7f4d9f8fd6a842b9cea2def9a74660397f5",
+    "references/overview.md": "858861d5a8263896d0af50b4434883387ab2eeb2c276cf4ea039ddd5e3d49ca0"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.beyond-legacy-code",
+  "bundle_sha256": "4372ede5a03ac1f5de6ea6b133af158f986570c72a213910fe84d52f6331904c",
+  "variant": "single",
+  "run_id": "run-20261015-094110-a4db58",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 10,
+    "reasons": [
+      "7 个能力通过晋级门，但触发验证阈值为 TBD-after-baseline 尚未启用；按 single-first 原则先推荐 single，拆分由使用证据驱动"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}
