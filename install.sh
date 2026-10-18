@@ -8,4 +8,5 @@ if [ -e "$dest" ] && [ "${FORCE:-0}" != "1" ]; then
 fi
 mkdir -p "$dest_root"; [ "${FORCE:-0}" = "1" ] && rm -rf "$dest"
 cp -R "$(cd "$(dirname "$0")" && pwd)/." "$dest" && rm -rf "$dest/.git" "$dest/install.sh"
+rm -f "$dest/BUILD_MANIFEST.json"   # 构建元数据不随安装分发
 echo "已安装: $dest"
